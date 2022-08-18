@@ -17,10 +17,9 @@ func max(s []int) int {
 	} else {
 		return subMax
 	}
-
 }
 
 func main() {
-	r := max([]int{1, 22, 4, 547, 66, 33, 238})
+	r := max([]int{238, 22, 1, 4})
 	fmt.Println(r)
 }
